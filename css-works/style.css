@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Chewy&family=Delius&family=Rouge+Script&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.works-main {
+    background-image: url(../img-works/works-bg2.png);
+}
+
+#works-title img {
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+#banner-page, #banner-pagelrg {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#banner-page2, #banner-page3 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.back-button {
+  top: 0;
+  transform: translateY(-122%);
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.openall-button {
+  top: 0;
+  transform: translateX(81%);
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+#banner-page4 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#edits-page, #edits-page2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  transform: translateY(10px);
+}
+
+#web-page, #web-page2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  transform: translateY(10px);
+}
+
+#edits-page3, #edits-page4 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  transform: translateY(10px);
+}
+
+#story-page, #story-page2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  transform: translateY(10px);
+}

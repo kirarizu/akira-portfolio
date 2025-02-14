@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Sawarabi+Gothic&display=swap');
+
+body {
+  background-color: #bee1c9;
+}
+
+#wrapper {
+  width: 100%;
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+#top {
+    width: 100%;
+    max-width: 990px;
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.menus {
+    text-align: center;
+}
+
+#buttons ul {
+ display: flex;
+ list-style: none;
+ justify-content: space-between;
+}
+
+#buttons img{
+    display: block;
+    width: 100%;
+}
+
+#buttons a:hover {
+  opacity: 0.7;
+}
+
+#content {
+    background-color: #95e7fc;
+}
+
+h3 {
+  font-family: "Mochiy Pop One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 51px;
+  background-color: white;
+  margin-block-end: 20px;
+  display: inLine-block;
+}
+
+.tamagotitle, .soranoirotitle h3 {
+  margin-inline-start: -20px;
+}
+
+.soranoirotitle h3 {
+  font-size: 40px;
+}
+  
+p {
+  font-family: "Sawarabi Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.subtamago, .subsoranoiro p {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+  
+.hirugaonotes, .soranoironotes p {
+  font-size: 10px;
+}
+
+#tamago, #hirugao {
+  display: flex;
+}
+
+#soranoiro {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+#tamago p {
+ margin-inline-start: 25px;
+}
+
+#soranoiro p {
+  margin-inline-start: 5px;
+}
+
+#hirugao {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.subhirugao {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.subhirugao h3 {
+  position: relative;
+  left: 30px;
+}
+
+.hirugaopic {
+  display: block;
+}
+
+.hirugaonotes {
+  margin-right: -5px;
+}
+
+.summer-coupon {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: -160px;
+}
+
+.summer-coupon a:hover {
+  opacity: 0.7;
+}
+
+.access-box {
+  border: #f39939;
+  border-style: solid;
+  border-width: 5px;
+  margin-right: 50px;
+  color: #f39939;
+}
+
+.access-box p {
+  font-size: 30px;
+}

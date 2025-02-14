@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Mochiy+Pop+One&display=swap');
+*{
+    box-sizing: border-box;
+}
+   
+
+
+body {
+    background-color: #eaa95f;
+}
+
+#top {
+    background-image: url(../img/polkadot-top-bg.png);
+}
+
+#wrapper {
+    background-color: #eaa95f;
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.slideshow-container1 {
+    max-width: 970px;
+    position: relative;
+    margin: auto;
+    margin-top: auto;
+}
+
+.slideshow-jujitsu {
+    max-width: 970px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.slideshow-anshin {
+    max-width: 970px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.slideshow-camp {
+    max-width: 970px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.slideshow-buffet {
+    max-width: 970px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+
+@keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+
+#titles {
+  display: flex;
+  justify-content: space-around;
+}
+
+#ozora-caption {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    background-color: #fdf9bb;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: block;
+}
+
+#ozora-caption p {
+    text-align: center;
+}
+
+#ozora-button ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+#jujitsu-title h1 {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    background-color: white;
+    text-align: center;
+}
+
+.prev-1, .next-1 {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #f7941d;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: #f7941d;
+}
+
+.next-1 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: #eaa95f;
+    color: #f7941d;
+}
+
+.jujitsupic-text {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 35px;
+    padding: 8px 12px;
+    display: block;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.jujitsu-slider, .anshin-slider {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.jujitsu-plana {
+    border-style: dashed;
+    border-color: white;
+    border-width: 8px;
+    margin-bottom: 10px;
+}
+
+.jujitsu-planb {
+    border-style: dashed;
+    border-color: white;
+    border-width: 8px;
+    margin-top: 35px;
+}
+
+#jujitsu-textplan {
+    margin-top: -25px;
+}
+
+#jujitsu-textplan h2 {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: white;
+    text-align: center;
+    font-size: 70px;
+    margin-right: 275px;
+    margin-left: 275px;
+}
+
+#jujitsu-textplan2 h3 {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: white;
+    text-align: center;
+    font-size: 35px;
+    margin-right: 289px;
+    margin-left: 289px;
+    margin-top: -43px;
+}
+
+.jujitsu-desc p {
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 53.25px;
+    text-align: center;
+}
+
+#button-jujitsua, #button-jujitsub {
+    display: flex;
+    justify-content: center;
+}
+
+#button-jujitsua, #button-jujitsub img {
+    margin-bottom: 25px;
+}
+
+.jujitsu-desc2 p {
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 53.25px;
+    text-align: center;
+}
+
+.anshin {
+    background-image: url(../img/anshin-bg.png);
+    background-repeat: repeat-y;
+    background-color: white;
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.prev-2, .next-2 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #f7941d;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: #f7941d;
+}
+
+.prev-2:hover, .next-2:hover {
+    background-color: #eaa95f;
+    color: #f7941d;
+}
+
+.next-2 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+#anshin-title h1 {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    text-align: center;
+}
+
+.anshinpic-text {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f7941d;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 32px;
+}
+
+.anshin-plan {
+    border-style: dashed;
+    border-color: #f7941d;
+    border-width: 8px 8px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#anshin-textplan {
+    margin-top: -25px;
+}
+
+#anshin-textplan h2 {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f7941d;
+    text-align: center;
+    font-size: 64px;
+    margin-right: 220px;
+    margin-left: 220px;
+}
+
+#anshin-textplan2 h3 {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f7941d;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 239px;
+    margin-left: 239px;
+    margin-top: -43px;
+}
+
+#button-anshin {
+    display: flex;
+    justify-content: center;
+}
+
+#button-anshin img {
+    margin-bottom: 25px;
+}
+
+.prev-3, .next-3 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #f7941d;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: #f7941d;
+}
+
+.prev-3:hover, .next-3:hover {
+    background-color: #eaa95f;
+    color: #f7941d;
+}
+
+.next-3 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+#camp-title h1 {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 66.7px;
+    background-color: white;
+    text-align: center;
+}
+
+#camp-pic {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.camp-slider, .buffet-slider {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.camppic-text {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.camp-plana {
+    border-style: dashed;
+    border-color: white;
+    border-width: 8px;
+    margin-bottom: 10px;
+}
+
+.camp-planb {
+    border-style: dashed;
+    border-color: white;
+    border-width: 8px;
+    margin-top: 35px;
+}
+
+#camp-textplan {
+    margin-top: 25px;
+}
+
+#camp-textplan h2 {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: white;
+    text-align: center;
+    font-size: 45px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+#camp-textplan2 h3 {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 220px;
+    margin-left: 220px;
+    margin-top: -29px;
+}
+
+.camp-desc p {
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 53.25px;
+    text-align: center;
+}
+
+#button-campa, #button-campb {
+    display: flex;
+    justify-content: center;
+}
+
+#button-campa, #button-campb img {
+    margin-bottom: 25px;
+}
+
+.camp-desc2 p {
+    font-family: "Kiwi Maru", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 53.25px;
+    text-align: center;
+}
+
+.prev-4, .next-4 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #f7941d;
+    font-weight: normal;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: #f7941d;
+}
+
+.prev-4:hover, .next-4:hover {
+    background-color: #eaa95f;
+    color: #f7941d;
+}
+
+.next-4 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.buffet {
+    background-image: url(../img/anshin-bg.png);
+    background-repeat: repeat-y;
+    background-color: white;
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+#buffet-title h1 {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    text-align: center;
+}
+
+.buffetpic-text, .buffetpic-text2 {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f7941d;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 32px;
+}
+
+.comment {
+    background-image: url(../img/comment-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+#comment-file {
+    display: flex;
+    justify-content: space-around;
+}
+
+#comment-file img {
+    margin-bottom: 99px;
+}
+
+#footer {
+    background-image: url(../img/footer-bg.png);
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    height: 100%;
+    margin-top: 15px;
+}
+
+#coupon-button {
+    display: flex;
+    justify-content: space-around;
+}
+
+#coupon-button img {
+    margin-top: 30px;
+}
+
+#coupon-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+#coupon-text p {
+    -webkit-text-stroke-color: #fdf9bb;
+    -webkit-text-stroke-width: 1px;
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+#airplane-button ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-inline-end: 30px;
+    margin-top: 30px;
+}
+
+#plan-coupon-button {
+    display: flex;
+    justify-content: space-around;
+}
+
+#plan-coupon-button img {
+    margin-bottom: 30px;
+}

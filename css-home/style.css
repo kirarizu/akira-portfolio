@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Chewy&family=Delius&family=Rouge+Script&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+#Home {
+    background-image:url(../img/bg-yellow.png) ;
+}
+
+#title-home {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+#title-logo {
+    display: flex;
+    margin-inline-start: 5px;
+}
+
+#title-logo h2 {
+    font-family: "Rouge Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#title-button ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-top: -75px;
+}
+
+#title-button a:hover {
+    color: yellow;
+}
+
+#home-photos {
+    margin-inline-start: 39px;
+    margin-top: 80px;
+}
+
+#photo-txt {
+    margin-bottom: 20px;
+}
+
+#photo-txt h2 {
+    font-family: "Charm", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 67px;
+    margin-top: -100px;
+}
+
+.Profile {
+    background-color: #a2f1af;
+}
+
+#profile-title img {
+    margin-top: -30px;
+}
+
+#profile-card {
+    margin-inline-start: 35px;
+    margin-top: 30px;
+}
+
+#profile-more-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#works-banner {
+    background-image: url(../img/works-bg.png);
+    margin-top: -10px;
+}
+
+#works-banner img {
+    margin-left: 200px;
+}
+
+#works-more-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.Contact {
+    background-image: url(../img/contact-bg.png);
+    background-repeat: no-repeat;
+}
+
+#contact-title img {
+    margin-top: -25px;
+}
+
+#contact-main img {
+   margin-inline-start: 50px;
+}
+
+#contact-text {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -400px;
+    margin-left: -67px;
+}
+
+#contact-text p {
+    font-family: "Delius", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#contact-text a:hover {
+    color: #003682;
+}
