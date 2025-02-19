@@ -8,7 +8,7 @@ body {
 }
 
 #Home {
-    background-image:url(../img/bg-yellow.png) ;
+    background-image:url(../img-home/bg-yellow.png) ;
 }
 
 #title-home {
@@ -78,7 +78,7 @@ body {
 }
 
 #works-banner {
-    background-image: url(../img/works-bg.png);
+    background-image: url(../img-home/works-bg.png);
     margin-top: -10px;
 }
 
